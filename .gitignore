@@ -1,0 +1,45 @@
+# =========================
+# AlphaCatcher .gitignore
+# 8086 Assembly + DOSBox Project
+# =========================
+
+# Compiled output files
+*.com
+*.exe
+*.bin
+*.obj
+*.o
+
+# Assembly listing / map files
+*.lst
+*.map
+*.sym
+
+# Temporary build artifacts
+*.tmp
+*.bak
+
+# DOSBox state files
+dosbox*.conf
+dosbox*.log
+*.sav
+
+# Emulator / runtime artifacts
+*.img
+*.ima
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NASM / assembler temp files (if any tools generate them)
+*.out
+
+# Debug files
+*.dbg
+*.dmp
